@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>Voter registration form</h1>
+    </header>
+
+    <body>
+        <p>
+            Please fill out the form below to register as a voter. All fields marked with an asterisk (*) are required.
+            <br />
+            After submitting the form, you will be redirected to the next steps in the voting process.
+        </p>
+        <form action="voterActions.html">
+            <section>
+                <h2>Personal Information</h2>
+                <p>Please provide your personal details to complete the voter registration.</p>
+                <label for="identification-number">Id*:</label>
+                <br />
+                <input type="text" id="identification-number" name="identificationNumber" required />
+                <br />
+                <label for="full-name">Full name*:</label>
+                <br />
+                <input type="text" id="full-name" name="fullName" required />
+                <br />
+                <label for="email">Email*:</label>
+                <br />
+                <input type="text" id="email" name="email" required />
+                <br />
+                <label for="phone-number">Phone number*:</label>
+                <br />
+                <input type="text" id="phone-number" name="phoneNumber" required />
+                <br /> <br />
+            </section>
+            <section>
+                <h3>Select Possible Candidate</h3>
+                <p>Please select a candidate you would like to vote for:</p>
+                <label for="candidate">Candidate*:</label>
+                <select name="candidate" id="candidate">
+                    <option hidden>Select a candidate</option>
+                    <option value="candidate1">Carlos Pedraza</option>
+                    <option value="candidate2">Cristina Pérez</option>
+                    <option value="candidate3">Rogelio Rodríguez</option>
+                    <option value="candidate4">Casimiro Cascante</option>
+                </select>
+                <br /> <br />
+            </section>
+            <input type="submit" value="Confirm Registration" />
+        </form>
+    </body>
+</html>
