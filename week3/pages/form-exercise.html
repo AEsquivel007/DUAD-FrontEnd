@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/form-styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <section class="form-section">
+                    <h1>Contact us!</h1>
+                    <p>
+                        Got something to say? Fire away!
+                    </p>
+                    <form class="form">
+                        <input type="text" id="first-name" name="first-name" placeholder="First name *" required>
+                        <br />
+                        <input type="text" id="last-name" name="last-name" placeholder="Last name *" required>
+                        <br />
+                        <div class="email-container">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="Email address *" required>
+                        </div>
+                        <select name="message-about" >
+                            <option value="" disabled selected>What is your message about? *</option>
+                        </select>
+                        <br />
+                        <textarea name="message" id="message" placeholder="Fire away! *"></textarea>
+                        <br />
+                        <button type="submit">Send my message</button>
+                    </form>
+                </section>
+                <section class="footer-section">
+                    <footer>
+                        <p>Powered by <img class="icon" src="../images/nethunt.png"></p>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
