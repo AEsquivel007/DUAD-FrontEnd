@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(237, 235, 235);
+    margin: 0;
+    padding: 1rem;
+}
+
+.chart-container {
+    background-color: rgb(237, 235, 235);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 51.7vw;
+    margin: auto;
+}
+
+h1 {
+    margin: 0 0 1rem;
+}
+
+.chart-date {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.chart-header {
+    list-style: none;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 3fr 0.4fr 0.34fr 0.28fr 0.25fr;
+    background-color: #0033cc;
+    color: white;
+    padding: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.chart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.chart-entry {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 4fr;
+    align-items: stretch;
+    width: 50vw;
+    height: 10vh;
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.chart-entry img {
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+
+.rank {
+    display: flex;   
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.song-info .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.song-info .artist {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.stats {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100;
+}
+
+.stats .plus-icon {
+    font-size: 2rem;
+    color: rgb(151, 150, 150);
+}
+
+.stats .award {
+    font-size: 1rem;
+    background-color: rgb(237, 235, 235);
+}
+
+.stats .peak-pos {
+    font-size: 1rem;
+    background-color: rgb(237, 235, 235);
+}
+
+.stats li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
