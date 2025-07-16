@@ -19,13 +19,30 @@ body {
     margin: auto;
 }
 
-h1 {
-    margin: 0 0 1rem;
+.header-bar {
+    display: flex;
+    align-items: center;
+    background-color: #efeded;
+    padding: 10px 5px;
 }
 
-.chart-date {
-    text-transform: uppercase;
+.title {
     font-weight: bold;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.spacer {
+    flex-grow: 1;
+    height: 18px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.date {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 .chart-header {
@@ -36,6 +53,7 @@ h1 {
     background-color: #0033cc;
     color: white;
     padding: 0.8rem;
+    margin-top: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.8rem;
