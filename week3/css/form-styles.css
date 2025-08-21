@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container {
+    width: 25%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(71, 97, 248);
+}
+
+.form-section {
+    width: 92%;
+    height: 92%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.form-section h1 {
+    color: #1A1A1A;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    margin: 2rem 0 1.5rem 1rem;
+}
+
+.form-section p {
+    color: #777777;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 1rem;
+}
+
+.footer-section {
+    width: 92%;
+    height: 92%;
+    display: flex;
+    justify-content: right;
+    padding: 3rem 1rem 0 0;
+    color: #777777;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 92%;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    color: #777777;
+    background-color: rgb(224, 235, 247);
+    border: none;
+}
+
+.form button {
+    width: 10rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: #2F54EB;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.email-container {
+    position: relative;
+}
+
+.email-container i {
+    position: absolute;
+    top: 35%;
+    right: 2rem;
+    color: #7d8086;
+    transform: translateY(-50%);
+}
+
+.icon {
+    width: 4.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    color: #7d8086;
+}
